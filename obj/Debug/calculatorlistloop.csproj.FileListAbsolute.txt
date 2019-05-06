@@ -1,0 +1,10 @@
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.exe.config
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.exe
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.pdb
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csprojAssemblyReference.cache
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.Form1.resources
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.Properties.Resources.resources
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csproj.GenerateResource.cache
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csproj.CoreCompileInputs.cache
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.exe
+C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.pdb
