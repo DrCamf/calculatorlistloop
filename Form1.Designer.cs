@@ -53,13 +53,19 @@
             this.btn_minus = new System.Windows.Forms.Button();
             this.btn_Plus = new System.Windows.Forms.Button();
             this.hej = new System.Windows.Forms.TextBox();
-            this.delSum1 = new System.Windows.Forms.TextBox();
-            this.delSum5 = new System.Windows.Forms.TextBox();
-            this.delSum4 = new System.Windows.Forms.TextBox();
-            this.delSum3 = new System.Windows.Forms.TextBox();
-            this.delSum2 = new System.Windows.Forms.TextBox();
             this.btn_leftPara = new System.Windows.Forms.Button();
             this.btn_rigthPara = new System.Windows.Forms.Button();
+            this.btn_log = new System.Windows.Forms.Button();
+            this.btn_cos = new System.Windows.Forms.Button();
+            this.btn_tan = new System.Windows.Forms.Button();
+            this.btn_sin = new System.Windows.Forms.Button();
+            this.btn_sincos = new System.Windows.Forms.Button();
+            this.btn_ucVid = new System.Windows.Forms.Button();
+            this.btn_Y = new System.Windows.Forms.Button();
+            this.btn_X = new System.Windows.Forms.Button();
+            this.btn_DrawGraph = new System.Windows.Forms.Button();
+            this.graph_canvas = new System.Windows.Forms.Panel();
+            this.btn_skema = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_1
@@ -305,47 +311,10 @@
             // hej
             // 
             this.hej.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hej.Location = new System.Drawing.Point(102, 156);
+            this.hej.Location = new System.Drawing.Point(102, 137);
             this.hej.Name = "hej";
             this.hej.Size = new System.Drawing.Size(206, 22);
             this.hej.TabIndex = 24;
-            // 
-            // delSum1
-            // 
-            this.delSum1.Location = new System.Drawing.Point(496, 79);
-            this.delSum1.Multiline = true;
-            this.delSum1.Name = "delSum1";
-            this.delSum1.Size = new System.Drawing.Size(100, 73);
-            this.delSum1.TabIndex = 25;
-            // 
-            // delSum5
-            // 
-            this.delSum5.Location = new System.Drawing.Point(496, 243);
-            this.delSum5.Name = "delSum5";
-            this.delSum5.Size = new System.Drawing.Size(100, 20);
-            this.delSum5.TabIndex = 26;
-            // 
-            // delSum4
-            // 
-            this.delSum4.Location = new System.Drawing.Point(496, 174);
-            this.delSum4.Multiline = true;
-            this.delSum4.Name = "delSum4";
-            this.delSum4.Size = new System.Drawing.Size(100, 63);
-            this.delSum4.TabIndex = 27;
-            // 
-            // delSum3
-            // 
-            this.delSum3.Location = new System.Drawing.Point(551, 319);
-            this.delSum3.Name = "delSum3";
-            this.delSum3.Size = new System.Drawing.Size(100, 20);
-            this.delSum3.TabIndex = 28;
-            // 
-            // delSum2
-            // 
-            this.delSum2.Location = new System.Drawing.Point(638, 245);
-            this.delSum2.Name = "delSum2";
-            this.delSum2.Size = new System.Drawing.Size(100, 20);
-            this.delSum2.TabIndex = 29;
             // 
             // btn_leftPara
             // 
@@ -367,18 +336,133 @@
             this.btn_rigthPara.UseVisualStyleBackColor = true;
             this.btn_rigthPara.Click += new System.EventHandler(this.btn_rigthPara_Click);
             // 
+            // btn_log
+            // 
+            this.btn_log.Location = new System.Drawing.Point(261, 185);
+            this.btn_log.Name = "btn_log";
+            this.btn_log.Size = new System.Drawing.Size(47, 23);
+            this.btn_log.TabIndex = 35;
+            this.btn_log.Text = "Log";
+            this.btn_log.UseVisualStyleBackColor = true;
+            this.btn_log.Click += new System.EventHandler(this.btn_log_Click);
+            // 
+            // btn_cos
+            // 
+            this.btn_cos.Location = new System.Drawing.Point(155, 185);
+            this.btn_cos.Name = "btn_cos";
+            this.btn_cos.Size = new System.Drawing.Size(47, 23);
+            this.btn_cos.TabIndex = 34;
+            this.btn_cos.Text = "Cos";
+            this.btn_cos.UseVisualStyleBackColor = true;
+            this.btn_cos.Click += new System.EventHandler(this.btn_cos_Click);
+            // 
+            // btn_tan
+            // 
+            this.btn_tan.Location = new System.Drawing.Point(208, 185);
+            this.btn_tan.Name = "btn_tan";
+            this.btn_tan.Size = new System.Drawing.Size(47, 23);
+            this.btn_tan.TabIndex = 33;
+            this.btn_tan.Text = "Tan";
+            this.btn_tan.UseVisualStyleBackColor = true;
+            this.btn_tan.Click += new System.EventHandler(this.btn_tan_Click);
+            // 
+            // btn_sin
+            // 
+            this.btn_sin.Location = new System.Drawing.Point(102, 185);
+            this.btn_sin.Name = "btn_sin";
+            this.btn_sin.Size = new System.Drawing.Size(47, 23);
+            this.btn_sin.TabIndex = 32;
+            this.btn_sin.Text = "Sin";
+            this.btn_sin.UseVisualStyleBackColor = true;
+            this.btn_sin.Click += new System.EventHandler(this.btn_sin_Click);
+            // 
+            // btn_sincos
+            // 
+            this.btn_sincos.Location = new System.Drawing.Point(49, 185);
+            this.btn_sincos.Name = "btn_sincos";
+            this.btn_sincos.Size = new System.Drawing.Size(47, 23);
+            this.btn_sincos.TabIndex = 36;
+            this.btn_sincos.Text = "-1";
+            this.btn_sincos.UseVisualStyleBackColor = true;
+            this.btn_sincos.Click += new System.EventHandler(this.btn_sincos_Click);
+            // 
+            // btn_ucVid
+            // 
+            this.btn_ucVid.Location = new System.Drawing.Point(12, 12);
+            this.btn_ucVid.Name = "btn_ucVid";
+            this.btn_ucVid.Size = new System.Drawing.Size(47, 23);
+            this.btn_ucVid.TabIndex = 37;
+            this.btn_ucVid.Text = "UdVid";
+            this.btn_ucVid.UseVisualStyleBackColor = true;
+            this.btn_ucVid.Click += new System.EventHandler(this.btn_ucVid_Click);
+            // 
+            // btn_Y
+            // 
+            this.btn_Y.Location = new System.Drawing.Point(49, 243);
+            this.btn_Y.Name = "btn_Y";
+            this.btn_Y.Size = new System.Drawing.Size(47, 23);
+            this.btn_Y.TabIndex = 38;
+            this.btn_Y.Text = "Y";
+            this.btn_Y.UseVisualStyleBackColor = true;
+            this.btn_Y.Click += new System.EventHandler(this.btn_Y_Click);
+            // 
+            // btn_X
+            // 
+            this.btn_X.Location = new System.Drawing.Point(49, 214);
+            this.btn_X.Name = "btn_X";
+            this.btn_X.Size = new System.Drawing.Size(47, 23);
+            this.btn_X.TabIndex = 39;
+            this.btn_X.Text = "X";
+            this.btn_X.UseVisualStyleBackColor = true;
+            this.btn_X.Click += new System.EventHandler(this.btn_X_Click);
+            // 
+            // btn_DrawGraph
+            // 
+            this.btn_DrawGraph.Location = new System.Drawing.Point(49, 272);
+            this.btn_DrawGraph.Name = "btn_DrawGraph";
+            this.btn_DrawGraph.Size = new System.Drawing.Size(47, 23);
+            this.btn_DrawGraph.TabIndex = 40;
+            this.btn_DrawGraph.Text = "Draw";
+            this.btn_DrawGraph.UseVisualStyleBackColor = true;
+            this.btn_DrawGraph.Click += new System.EventHandler(this.btn_DrawGraph_Click);
+            // 
+            // graph_canvas
+            // 
+            this.graph_canvas.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.graph_canvas.Location = new System.Drawing.Point(412, 38);
+            this.graph_canvas.Name = "graph_canvas";
+            this.graph_canvas.Size = new System.Drawing.Size(400, 400);
+            this.graph_canvas.TabIndex = 41;
+            this.graph_canvas.Paint += new System.Windows.Forms.PaintEventHandler(this.graph_canvas_Paint);
+            // 
+            // btn_skema
+            // 
+            this.btn_skema.Location = new System.Drawing.Point(637, 9);
+            this.btn_skema.Name = "btn_skema";
+            this.btn_skema.Size = new System.Drawing.Size(65, 23);
+            this.btn_skema.TabIndex = 42;
+            this.btn_skema.Text = "Skema";
+            this.btn_skema.UseVisualStyleBackColor = true;
+            this.btn_skema.Click += new System.EventHandler(this.btn_skema_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(824, 450);
+            this.Controls.Add(this.btn_skema);
+            this.Controls.Add(this.graph_canvas);
+            this.Controls.Add(this.btn_DrawGraph);
+            this.Controls.Add(this.btn_X);
+            this.Controls.Add(this.btn_Y);
+            this.Controls.Add(this.btn_ucVid);
+            this.Controls.Add(this.btn_sincos);
+            this.Controls.Add(this.btn_log);
+            this.Controls.Add(this.btn_cos);
+            this.Controls.Add(this.btn_tan);
+            this.Controls.Add(this.btn_sin);
             this.Controls.Add(this.btn_rigthPara);
             this.Controls.Add(this.btn_leftPara);
-            this.Controls.Add(this.delSum2);
-            this.Controls.Add(this.delSum3);
-            this.Controls.Add(this.delSum4);
-            this.Controls.Add(this.delSum5);
-            this.Controls.Add(this.delSum1);
             this.Controls.Add(this.hej);
             this.Controls.Add(this.btn_Clear);
             this.Controls.Add(this.btn_Equal);
@@ -438,13 +522,19 @@
         private System.Windows.Forms.Button btn_minus;
         private System.Windows.Forms.Button btn_Plus;
         private System.Windows.Forms.TextBox hej;
-        private System.Windows.Forms.TextBox delSum1;
-        private System.Windows.Forms.TextBox delSum5;
-        private System.Windows.Forms.TextBox delSum4;
-        private System.Windows.Forms.TextBox delSum3;
-        private System.Windows.Forms.TextBox delSum2;
         private System.Windows.Forms.Button btn_leftPara;
         private System.Windows.Forms.Button btn_rigthPara;
+        private System.Windows.Forms.Button btn_log;
+        private System.Windows.Forms.Button btn_cos;
+        private System.Windows.Forms.Button btn_tan;
+        private System.Windows.Forms.Button btn_sin;
+        private System.Windows.Forms.Button btn_sincos;
+        private System.Windows.Forms.Button btn_ucVid;
+        private System.Windows.Forms.Button btn_Y;
+        private System.Windows.Forms.Button btn_X;
+        private System.Windows.Forms.Button btn_DrawGraph;
+        private System.Windows.Forms.Panel graph_canvas;
+        private System.Windows.Forms.Button btn_skema;
     }
 }
 

@@ -8,3 +8,13 @@ C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\c
 C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csproj.CoreCompileInputs.cache
 C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.exe
 C:\Users\thor2332\source\repos\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.pdb
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.exe.config
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.exe
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\bin\Debug\calculatorlistloop.pdb
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csprojAssemblyReference.cache
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.Form1.resources
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.Properties.Resources.resources
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csproj.GenerateResource.cache
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.csproj.CoreCompileInputs.cache
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.exe
+C:\Users\DrCam\Desktop\calculatorlistloop\calculatorlistloop\obj\Debug\calculatorlistloop.pdb
