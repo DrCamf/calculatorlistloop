@@ -16,6 +16,9 @@ namespace calculatorlistloop
         List<double> tal = new List<double>();
         List<string> tegn = new List<string>();
 
+        public TextBox[] talbox;
+
+
         List<double> x = new List<double>();
         List<double> y = new List<double>();
 
@@ -34,6 +37,8 @@ namespace calculatorlistloop
         public Form1()
         {
             InitializeComponent();
+            talbox = new TextBox[20] { tal_box1, tal_box2, tal_box3, tal_box4, tal_box5, tal_box6, tal_box7, tal_box8, tal_box9, tal_box10, tal_box11, tal_box12, tal_box13, tal_box14, tal_box15, tal_box16, tal_box17, tal_box18, tal_box19, tal_box20 };
+          
         }
         //This is were the buttons are made to numbers in the textbox
         #region //Input
@@ -371,6 +376,15 @@ namespace calculatorlistloop
         private void inputError()
         {
             MessageBox.Show("Du har tastet bogstaver i stedet for tal", "Forkert indtastning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void Btn_Fill_Click(object sender, EventArgs e)
+        {
+            Random rand = new Random();
+            for (int i = 0; i < 20; i++)
+            {
+                talbox[i].Text = rand.Next(1, 99).ToString();
+            }
         }
 
         // this clears all variables and textbox

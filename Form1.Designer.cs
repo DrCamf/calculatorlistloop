@@ -66,6 +66,27 @@
             this.btn_DrawGraph = new System.Windows.Forms.Button();
             this.graph_canvas = new System.Windows.Forms.Panel();
             this.btn_skema = new System.Windows.Forms.Button();
+            this.tal_box1 = new System.Windows.Forms.TextBox();
+            this.tal_box2 = new System.Windows.Forms.TextBox();
+            this.tal_box3 = new System.Windows.Forms.TextBox();
+            this.tal_box4 = new System.Windows.Forms.TextBox();
+            this.tal_box5 = new System.Windows.Forms.TextBox();
+            this.tal_box10 = new System.Windows.Forms.TextBox();
+            this.tal_box9 = new System.Windows.Forms.TextBox();
+            this.tal_box8 = new System.Windows.Forms.TextBox();
+            this.tal_box7 = new System.Windows.Forms.TextBox();
+            this.tal_box6 = new System.Windows.Forms.TextBox();
+            this.tal_box20 = new System.Windows.Forms.TextBox();
+            this.tal_box19 = new System.Windows.Forms.TextBox();
+            this.tal_box18 = new System.Windows.Forms.TextBox();
+            this.tal_box17 = new System.Windows.Forms.TextBox();
+            this.tal_box16 = new System.Windows.Forms.TextBox();
+            this.tal_box15 = new System.Windows.Forms.TextBox();
+            this.tal_box14 = new System.Windows.Forms.TextBox();
+            this.tal_box13 = new System.Windows.Forms.TextBox();
+            this.tal_box12 = new System.Windows.Forms.TextBox();
+            this.tal_box11 = new System.Windows.Forms.TextBox();
+            this.btn_Fill = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_1
@@ -445,11 +466,182 @@
             this.btn_skema.UseVisualStyleBackColor = true;
             this.btn_skema.Click += new System.EventHandler(this.btn_skema_Click);
             // 
+            // tal_box1
+            // 
+            this.tal_box1.Location = new System.Drawing.Point(76, 62);
+            this.tal_box1.Name = "tal_box1";
+            this.tal_box1.Size = new System.Drawing.Size(20, 20);
+            this.tal_box1.TabIndex = 43;
+            // 
+            // tal_box2
+            // 
+            this.tal_box2.Location = new System.Drawing.Point(102, 62);
+            this.tal_box2.Name = "tal_box2";
+            this.tal_box2.Size = new System.Drawing.Size(20, 20);
+            this.tal_box2.TabIndex = 44;
+            // 
+            // tal_box3
+            // 
+            this.tal_box3.Location = new System.Drawing.Point(128, 62);
+            this.tal_box3.Name = "tal_box3";
+            this.tal_box3.Size = new System.Drawing.Size(20, 20);
+            this.tal_box3.TabIndex = 45;
+            // 
+            // tal_box4
+            // 
+            this.tal_box4.Location = new System.Drawing.Point(154, 62);
+            this.tal_box4.Name = "tal_box4";
+            this.tal_box4.Size = new System.Drawing.Size(20, 20);
+            this.tal_box4.TabIndex = 46;
+            // 
+            // tal_box5
+            // 
+            this.tal_box5.Location = new System.Drawing.Point(180, 62);
+            this.tal_box5.Name = "tal_box5";
+            this.tal_box5.Size = new System.Drawing.Size(20, 20);
+            this.tal_box5.TabIndex = 48;
+            // 
+            // tal_box10
+            // 
+            this.tal_box10.Location = new System.Drawing.Point(313, 62);
+            this.tal_box10.Name = "tal_box10";
+            this.tal_box10.Size = new System.Drawing.Size(20, 20);
+            this.tal_box10.TabIndex = 53;
+            // 
+            // tal_box9
+            // 
+            this.tal_box9.Location = new System.Drawing.Point(287, 62);
+            this.tal_box9.Name = "tal_box9";
+            this.tal_box9.Size = new System.Drawing.Size(20, 20);
+            this.tal_box9.TabIndex = 52;
+            // 
+            // tal_box8
+            // 
+            this.tal_box8.Location = new System.Drawing.Point(261, 62);
+            this.tal_box8.Name = "tal_box8";
+            this.tal_box8.Size = new System.Drawing.Size(20, 20);
+            this.tal_box8.TabIndex = 51;
+            // 
+            // tal_box7
+            // 
+            this.tal_box7.Location = new System.Drawing.Point(235, 62);
+            this.tal_box7.Name = "tal_box7";
+            this.tal_box7.Size = new System.Drawing.Size(20, 20);
+            this.tal_box7.TabIndex = 50;
+            // 
+            // tal_box6
+            // 
+            this.tal_box6.Location = new System.Drawing.Point(209, 62);
+            this.tal_box6.Name = "tal_box6";
+            this.tal_box6.Size = new System.Drawing.Size(20, 20);
+            this.tal_box6.TabIndex = 49;
+            // 
+            // tal_box20
+            // 
+            this.tal_box20.Location = new System.Drawing.Point(313, 88);
+            this.tal_box20.Name = "tal_box20";
+            this.tal_box20.Size = new System.Drawing.Size(20, 20);
+            this.tal_box20.TabIndex = 63;
+            // 
+            // tal_box19
+            // 
+            this.tal_box19.Location = new System.Drawing.Point(287, 88);
+            this.tal_box19.Name = "tal_box19";
+            this.tal_box19.Size = new System.Drawing.Size(20, 20);
+            this.tal_box19.TabIndex = 62;
+            // 
+            // tal_box18
+            // 
+            this.tal_box18.Location = new System.Drawing.Point(261, 88);
+            this.tal_box18.Name = "tal_box18";
+            this.tal_box18.Size = new System.Drawing.Size(20, 20);
+            this.tal_box18.TabIndex = 61;
+            // 
+            // tal_box17
+            // 
+            this.tal_box17.Location = new System.Drawing.Point(235, 88);
+            this.tal_box17.Name = "tal_box17";
+            this.tal_box17.Size = new System.Drawing.Size(20, 20);
+            this.tal_box17.TabIndex = 60;
+            // 
+            // tal_box16
+            // 
+            this.tal_box16.Location = new System.Drawing.Point(209, 88);
+            this.tal_box16.Name = "tal_box16";
+            this.tal_box16.Size = new System.Drawing.Size(20, 20);
+            this.tal_box16.TabIndex = 59;
+            // 
+            // tal_box15
+            // 
+            this.tal_box15.Location = new System.Drawing.Point(180, 88);
+            this.tal_box15.Name = "tal_box15";
+            this.tal_box15.Size = new System.Drawing.Size(20, 20);
+            this.tal_box15.TabIndex = 58;
+            // 
+            // tal_box14
+            // 
+            this.tal_box14.Location = new System.Drawing.Point(154, 88);
+            this.tal_box14.Name = "tal_box14";
+            this.tal_box14.Size = new System.Drawing.Size(20, 20);
+            this.tal_box14.TabIndex = 57;
+            // 
+            // tal_box13
+            // 
+            this.tal_box13.Location = new System.Drawing.Point(128, 88);
+            this.tal_box13.Name = "tal_box13";
+            this.tal_box13.Size = new System.Drawing.Size(20, 20);
+            this.tal_box13.TabIndex = 56;
+            // 
+            // tal_box12
+            // 
+            this.tal_box12.Location = new System.Drawing.Point(102, 88);
+            this.tal_box12.Name = "tal_box12";
+            this.tal_box12.Size = new System.Drawing.Size(20, 20);
+            this.tal_box12.TabIndex = 55;
+            // 
+            // tal_box11
+            // 
+            this.tal_box11.Location = new System.Drawing.Point(76, 88);
+            this.tal_box11.Name = "tal_box11";
+            this.tal_box11.Size = new System.Drawing.Size(20, 20);
+            this.tal_box11.TabIndex = 54;
+            // 
+            // btn_Fill
+            // 
+            this.btn_Fill.Location = new System.Drawing.Point(49, 137);
+            this.btn_Fill.Name = "btn_Fill";
+            this.btn_Fill.Size = new System.Drawing.Size(47, 23);
+            this.btn_Fill.TabIndex = 64;
+            this.btn_Fill.Text = "Fill";
+            this.btn_Fill.UseVisualStyleBackColor = true;
+            this.btn_Fill.Click += new System.EventHandler(this.Btn_Fill_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(824, 450);
+            this.Controls.Add(this.btn_Fill);
+            this.Controls.Add(this.tal_box20);
+            this.Controls.Add(this.tal_box19);
+            this.Controls.Add(this.tal_box18);
+            this.Controls.Add(this.tal_box17);
+            this.Controls.Add(this.tal_box16);
+            this.Controls.Add(this.tal_box15);
+            this.Controls.Add(this.tal_box14);
+            this.Controls.Add(this.tal_box13);
+            this.Controls.Add(this.tal_box12);
+            this.Controls.Add(this.tal_box11);
+            this.Controls.Add(this.tal_box10);
+            this.Controls.Add(this.tal_box9);
+            this.Controls.Add(this.tal_box8);
+            this.Controls.Add(this.tal_box7);
+            this.Controls.Add(this.tal_box6);
+            this.Controls.Add(this.tal_box5);
+            this.Controls.Add(this.tal_box4);
+            this.Controls.Add(this.tal_box3);
+            this.Controls.Add(this.tal_box2);
+            this.Controls.Add(this.tal_box1);
             this.Controls.Add(this.btn_skema);
             this.Controls.Add(this.graph_canvas);
             this.Controls.Add(this.btn_DrawGraph);
@@ -535,6 +727,27 @@
         private System.Windows.Forms.Button btn_DrawGraph;
         private System.Windows.Forms.Panel graph_canvas;
         private System.Windows.Forms.Button btn_skema;
+        private System.Windows.Forms.TextBox tal_box1;
+        private System.Windows.Forms.TextBox tal_box2;
+        private System.Windows.Forms.TextBox tal_box3;
+        private System.Windows.Forms.TextBox tal_box4;
+        private System.Windows.Forms.TextBox tal_box5;
+        private System.Windows.Forms.TextBox tal_box10;
+        private System.Windows.Forms.TextBox tal_box9;
+        private System.Windows.Forms.TextBox tal_box8;
+        private System.Windows.Forms.TextBox tal_box7;
+        private System.Windows.Forms.TextBox tal_box6;
+        private System.Windows.Forms.TextBox tal_box20;
+        private System.Windows.Forms.TextBox tal_box19;
+        private System.Windows.Forms.TextBox tal_box18;
+        private System.Windows.Forms.TextBox tal_box17;
+        private System.Windows.Forms.TextBox tal_box16;
+        private System.Windows.Forms.TextBox tal_box15;
+        private System.Windows.Forms.TextBox tal_box14;
+        private System.Windows.Forms.TextBox tal_box13;
+        private System.Windows.Forms.TextBox tal_box12;
+        private System.Windows.Forms.TextBox tal_box11;
+        private System.Windows.Forms.Button btn_Fill;
     }
 }
 
